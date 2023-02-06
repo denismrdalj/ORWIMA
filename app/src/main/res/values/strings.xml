@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Camelot</string>
+    <string name="bpm_label">BPM</string>
+    <string name="camelot_label">Camelot</string>
+    <string name="key_label">Key</string>
+    <string name="pop_label">Pop</string>
+    <string name="release_label">Release</string>
+    <string name="album_label">Album</string>
+    <string name="label_label">Label</string>
+    <string name="close_button">Close button</string>
+    <string name="track_image">Track image</string>
+    <string name="contains_samples">Contains samples from</string>
+    <string name="sampled_in">Was sampled in</string>
+    <string name="remixed_in">Was remixed in</string>
+    <string name="null_sample">No samples found.</string>
+    <string name="null_remix">No remixes found.</string>
+    <string name="search_hint">Search tracks...</string>
+
+</resources>

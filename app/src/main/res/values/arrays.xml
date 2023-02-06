@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="ids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <string-array name="titles">
+        <item>I Cry</item>
+        <item>Would I Lie To You</item>
+        <item>There\'s Nothing Holding Me Back</item>
+        <item>I\'m Good (Blue)</item>
+        <item>Wake Me Up</item>
+        <item>Cry (Just a Little)</item>
+        <item>Blue (Da Ba Dee)</item>
+        <item>Would I Lie To You?</item>
+        <item>Wake Me Up (Pang Remix)</item>
+        <item>Cry (Just a Little) (A-Trak Remix)</item>
+        <item>I\'m Good (Blue) (Tiesto Remix)</item>
+        <item>There\'s Nothing Holdin\' Me Back (NOTD Remix)</item>
+        <item>Would I Lie to You (Cash Cash Remix)</item>
+    </string-array>
+    <string-array name="artists">
+        <item>Flo Rida</item>
+        <item>David Guetta</item>
+        <item>Shawn Mendes</item>
+        <item>David Guetta, Bebe Rexha</item>
+        <item>Avicii</item>
+        <item>Bingo Players</item>
+        <item>Eiffel 65</item>
+        <item>Charles &amp; Eddie</item>
+        <item>Avicii</item>
+        <item>Bingo Players</item>
+        <item>David Guetta, Bebe Rexha</item>
+        <item>Shawn Mendes</item>
+        <item>David Guetta</item>
+    </string-array>
+    <string-array name="albums">
+        <item>Wild Ones</item>
+        <item>Single</item>
+        <item>Illuminate</item>
+        <item>Single</item>
+        <item>True</item>
+        <item>Single</item>
+        <item>Europop</item>
+        <item>Duophonic</item>
+        <item>Single</item>
+        <item>Single</item>
+        <item>Single</item>
+        <item>Single</item>
+        <item>Single</item>
+    </string-array>
+    <string-array name="labels">
+        <item>Atlantic</item>
+        <item>Parlophone</item>
+        <item>Island Records</item>
+        <item>Parlophone UK</item>
+        <item>Universal</item>
+        <item>Atlantic</item>
+        <item>Hits Only</item>
+        <item>Capitol</item>
+        <item>Universal</item>
+        <item>Spinnin\' Records</item>
+        <item>Parlophone UK</item>
+        <item>Island Records</item>
+        <item>Parlophone</item>
+    </string-array>
+    <string-array name="releases">
+        <item>2012</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2022</item>
+        <item>2013</item>
+        <item>2011</item>
+        <item>1999</item>
+        <item>1992</item>
+        <item>2013</item>
+        <item>2016</item>
+        <item>2022</item>
+        <item>2017</item>
+        <item>2016</item>
+    </string-array>
+    <string-array name="pops">
+        <item>59</item>
+        <item>61</item>
+        <item>86</item>
+        <item>98</item>
+        <item>85</item>
+        <item>44</item>
+        <item>77</item>
+        <item>58</item>
+        <item>46</item>
+        <item>65</item>
+        <item>66</item>
+        <item>48</item>
+        <item>34</item>
+    </string-array>
+    <string-array name="bpms">
+        <item>126</item>
+        <item>124</item>
+        <item>122</item>
+        <item>128</item>
+        <item>124</item>
+        <item>126</item>
+        <item>128</item>
+        <item>202</item>
+        <item>120</item>
+        <item>126</item>
+        <item>128</item>
+        <item>122</item>
+        <item>127</item>
+    </string-array>
+    <string-array name="keys">
+        <item>Em</item>
+        <item>Gm</item>
+        <item>Bm</item>
+        <item>Gm</item>
+        <item>D</item>
+        <item>Em</item>
+        <item>Gm</item>
+        <item>Bm</item>
+        <item>Am</item>
+        <item>Em</item>
+        <item>Gm</item>
+        <item>Bm</item>
+        <item>Gm</item>
+    </string-array>
+    <string-array name="camelots">
+        <item>9A</item>
+        <item>6A</item>
+        <item>10A</item>
+        <item>6A</item>
+        <item>10B</item>
+        <item>9A</item>
+        <item>6A</item>
+        <item>10A</item>
+        <item>8A</item>
+        <item>9A</item>
+        <item>6A</item>
+        <item>10A</item>
+        <item>6A</item>
+    </string-array>
+    <string-array name="samples_text">
+        <item>Contains samples from</item>
+        <item>Contains samples from</item>
+        <item>Contains samples from</item>
+        <item>Contains samples from</item>
+        <item>Contains samples from</item>
+        <item>Was sampled in</item>
+        <item>Was sampled in</item>
+        <item>Was sampled in</item>
+        <item>Contains samples from</item>
+        <item>Contains samples from</item>
+        <item>Contains samples from</item>
+        <item>Contains samples from</item>
+        <item>Contains samples from</item>
+    </string-array>
+    <string-array name="remixes_text">
+        <item>Was remixed in</item>
+        <item>Was remixed in</item>
+        <item>Was remixed in</item>
+        <item>Was remixed in</item>
+        <item>Was remixed in</item>
+        <item>Was remixed in</item>
+        <item>Was remixed in</item>
+        <item>Was remixed in</item>
+        <item>Is a remix of</item>
+        <item>Is a remix of</item>
+        <item>Is a remix of</item>
+        <item>Is a remix of</item>
+        <item>Is a remix of</item>
+    </string-array>
+    <string-array name="samples">
+        <item>6</item>
+        <item>8</item>
+        <item>0</item>
+        <item>7</item>
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>2</item>
+        <item>5</item>
+        <item>6</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="remixes">
+        <item>10</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>9</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+</resources>

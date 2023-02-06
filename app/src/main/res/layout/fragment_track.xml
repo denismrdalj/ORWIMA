@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="370dp"
+    android:layout_height="650dp"
+    android:layout_gravity="center"
+    android:background="@drawable/layout_bg"
+    android:id="@+id/track_fragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".TrackFragment">
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_close"
+            android:backgroundTint="#9999cc"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:contentDescription="@string/track_image"
+            android:id="@+id/imageViewTrack"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/image_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/trackArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTrack" />
+
+        <TextView
+            android:id="@+id/trackTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trackArtist" />
+
+
+        <TextView
+            android:id="@+id/trackBPM"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:text=""
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000"
+            app:layout_constraintEnd_toStartOf="@+id/trackCamelot"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trackTitle" />
+
+
+        <TextView
+            android:id="@+id/trackCamelot"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:text=""
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000"
+            app:layout_constraintEnd_toStartOf="@+id/trackKey"
+            app:layout_constraintStart_toEndOf="@+id/trackBPM"
+            app:layout_constraintTop_toBottomOf="@+id/trackTitle" />
+
+        <TextView
+            android:id="@+id/trackKey"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:text=""
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000"
+            app:layout_constraintEnd_toStartOf="@+id/trackPop"
+            app:layout_constraintStart_toEndOf="@+id/trackCamelot"
+            app:layout_constraintTop_toBottomOf="@+id/trackTitle" />
+
+        <TextView
+            android:id="@+id/trackPop"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:text=""
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/trackKey"
+            app:layout_constraintTop_toBottomOf="@+id/trackTitle" />
+
+        <TextView
+            android:id="@+id/bpm_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/bpm_label"
+            android:textColor="#9999cc"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trackBPM" />
+
+        <TextView
+            android:id="@+id/camelot_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/camelot_label"
+            android:textColor="#9999cc"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.365"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trackCamelot" />
+
+        <TextView
+            android:id="@+id/key_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/key_label"
+            android:textColor="#9999cc"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trackKey" />
+
+        <TextView
+            android:id="@+id/pop_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pop_label"
+            android:textColor="#9999cc"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.874"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trackPop" />
+
+        <TextView
+            android:id="@+id/release_text"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/release_label"
+            android:textColor="#9999cc"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/album_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/trackRelease" />
+
+        <TextView
+            android:id="@+id/album_text"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/album_label"
+            android:textColor="#9999cc"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/label_text"
+            app:layout_constraintStart_toEndOf="@+id/release_text"
+            app:layout_constraintTop_toBottomOf="@id/trackAlbum" />
+
+        <TextView
+            android:id="@+id/label_text"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/label_label"
+            android:textColor="#9999cc"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/album_text"
+            app:layout_constraintTop_toBottomOf="@id/trackLabel" />
+
+        <TextView
+            android:id="@+id/trackRelease"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#000"
+            app:layout_constraintEnd_toStartOf="@+id/trackAlbum"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/trackAlbum"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#000"
+            app:layout_constraintEnd_toStartOf="@id/trackLabel"
+            app:layout_constraintStart_toEndOf="@id/trackRelease"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/trackLabel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/trackAlbum"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/samples_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:textColor="#333"
+            app:layout_constraintBottom_toTopOf="@+id/samples_recycler"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+        <TextView
+            android:id="@+id/remixes_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:textColor="#333"
+            app:layout_constraintTop_toBottomOf="@+id/samples_recycler"
+            app:layout_constraintBottom_toTopOf="@+id/remixes_recycler"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/samples_recycler"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/recycler_bg"
+            android:paddingBottom="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/remixes_recycler"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/recycler_bg"
+            android:paddingBottom="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/remixes_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
